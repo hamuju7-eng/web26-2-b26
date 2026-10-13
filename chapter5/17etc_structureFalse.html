@@ -4,16 +4,20 @@
     <meta charter="UTF-8">
     <title>3.구조 선택자</title>
     <style>
-        li>a:first-child{color:red;}
+        li:first-child>a{color:red;}
+        /*li>a:first-child{color:red;}*/
     </style>
 </head>
 <body>
     <ul>
         <li><a href="#">주의사항</a></li>
         <li><a href="#">주의사항</a></li>
-        <li><a href="#">주의사항</a></li>
-        <li><a href="#">주의사항</a></li>
-        <li><a href="#">주의사항</a></li>
+        <li>
+        <a href="#">주의사항1</a>
+        <a href="#">주의사항2</a>
+        </li>
+        <li><a href="#">주의사항3</a></li>
+        <li><a href="#">주의사항4</a></li>
 
     </ul>
 </body>
